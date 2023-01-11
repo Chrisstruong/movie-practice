@@ -1,0 +1,69 @@
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    min-width: 770px;
+}
+.carousel-container {
+    width:50%;
+    margin-left: 400px;
+    margin: 0 auto;
+}
+.carousel-inner{
+    margin: auto;
+}
+.carousel-control-prev{
+    width:40%!important;
+}
+.carousel-control-next{
+    width:40%!important;
+}
+.slider {
+    display: flex;
+    height: 500px!important;
+    width: 400px!important;
+    /* margin-left: 220px; */
+    margin:0 auto;
+
+}
+/* .carousel-control-next-icon .carousel-control-next{
+    gap: 5rem;
+    
+} */
+.carousel-indicators{
+max-width: 300px;
+margin: 0 auto!important;
+}
+.slick-track{
+    min-width: 350px;
+}
+
+.slick-slider .slick-initialized{
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.movies-slide-bar{
+    width:1500px;
+    margin: 0 auto;
+}
+.slick-arrow .slick.prev::before{
+    display:none
+}
+
+::before{
+    display: none;
+}
+
+.button-movie-slider{
+    display: flex;
+    left:-2%;
+}

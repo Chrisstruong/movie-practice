@@ -1,0 +1,200 @@
+
+a {
+    text-decoration: none;
+    color: #19F19B;
+}
+h1{
+    text-decoration: none;
+
+}
+.main-page{
+    background-image: url("https://images.pexels.com/photos/2387819/pexels-photo-2387819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* padding-top: 100px; */
+    background-size:100% 100%;
+    background-attachment: fixed;
+    /* margin:0px; */
+    background-repeat: no-repeat;
+    
+}
+.header-homepage {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(3, 28, 103); */
+    background-color: rgb(49, 48, 48);
+    text-decoration: none;
+    padding-bottom: 7px;
+    /* padding-right: 200px; */
+  
+}
+#movie-buff {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #F3EC78;
+    background-image: linear-gradient(45deg, #7DF58D, #5191FF);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 50px;
+}
+.homepage {
+    display: flex;
+}
+#blank-symbol-header{
+    background-image: linear-gradient(45deg, #19F19B, #5191FF);
+    margin-left: 20px;
+    padding-right: 80px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 18px;
+    color: rgb(3, 28, 103);
+}
+#login-box{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 7px;
+    
+    margin-right: 40px;
+    background-color: #F3EC78;
+    background-image: linear-gradient(75deg, yellow, red);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    
+}
+#avatar-image {
+    display: flex;
+    /* margin-right: 60px; */
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 5px;
+    width: auto;
+    height: 45px;
+    border-radius: 50%;
+}
+.movie-list{
+    display: flex;
+    justify-content: space-between;
+}
+.movie-images {
+    height: 200px!important;
+}
+.top-rated-movies{
+    color:white;
+    width: 1400px;
+    margin:0 auto ;
+}
+#biwind{
+    color:deepskyblue;
+}
+.View-All {
+    font-family: 'Bebas Neue', cursive;
+    /* margin-left: 1000px; */
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    
+}
+.spinner {
+    width: 24px;
+    animation: loading infinite 3s linear;
+}
+.content{
+    /* background-image: linear-gradient(0.25turn, #10698683, #0C2C63); */
+    /* animation: mymove 10s infinite; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* movieSlider.js */
+.movies-slide-bar{
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: rgb(0, 0, 0, .4); */
+}
+.each-movie{
+    width: 100px;
+    height: auto;
+    position:relative;
+    margin-left: 20px;
+    /* background-color: rgba(139, 255, 255, 0.588); */
+}
+.each-movie-img {
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    transition: transform 400ms ease-in-out;
+    z-index: 1020;
+}
+
+
+.each-movie-img:hover + .h3-in-each-movie{
+    display: block;
+    z-index: 0;
+}
+.each-movie-img:hover {
+    transform: scale(1.3);
+    opacity: 0.8;
+    display: block;
+}
+.Description{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.h3-in-each-movie{
+    position:absolute;
+    font-size: 25px;
+    padding:15px;
+    bottom:50px;
+    display: none;
+    z-index: -1;
+    color:rgb(255, 255, 255);
+}
+.button-movie-slider{
+    position: absolute;
+    top: 45%;
+}
+.back{
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.4;
+}
+.back:hover{
+    opacity: 1;
+}
+.next{
+    margin-left: 1500px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0.4;
+}
+.next:hover{
+    opacity: 1;
+}
+/* @keyframes mymove {
+    from {background-color: #2d883a83;}
+    to {background-color: #005CFC;}
+  }
+@keyframes loading{
+    from{
+      transform: rotateZ(0deg);
+    }
+    to{
+      transform: rotateZ(360deg);
+    }
+  } */
+  .movies-slide-bar{
+    background-color: none;
+  }
+  .header-logo{
+    height: 50px;
+    padding: 10px 0 0 10px;
+  }
+ 
